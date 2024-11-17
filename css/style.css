@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span ,.h5{
+    color: rgb(125, 241, 226);
+}
+.btn-click{
+    background-color:  rgb(125, 241, 226);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+   
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.btn-click:hover{
+    background-color:  white;
+    color: rgb(125, 241, 226);
+
+}
+ 
+
+
+/* -------------------------------- */
+
+header{
+
+    background-image: url('/img/xhero_2.jpg.pagespeed.ic._xYTRIlPTB.webp')  ;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav {
+    position: relative;
+    z-index: 999999;
+}
+
+nav .nav-link:hover {
+    color: rgb(125, 241, 226) ;
+    
+
+}
+
+.ul-1{
+    margin-left: 300px;
+    
+}
+
+/* head info */
+.head-info{
+    text-align: center;
+position: absolute;
+top:40%;
+left:8%
+}
+
+.head-info input[type=text]{
+    margin-right: 10px;
+    width: 220px;
+    height: 40px;
+    border:rgb(125, 241, 226) ;
+}
+.head-info select{
+    width: 200px;
+    height: 40px;
+    color: rgb(121, 119, 119);
+    border: none;
+}
+
+.card-small{
+    background-color: white;
+    text-align: center;
+    flex-wrap: nowrap;
+    position: relative;
+    top: -30px;
+    left: 7%;
+    border-radius: 7px;
+}
+.card-small-info{
+    
+    background-color:white;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    height: 120px;
+    width: 160px;
+    left: 60px;
+
+}
+.pp {
+   background-color: rgb(216, 211, 211);
+   display:inline;
+   padding: 10px;
+   border-radius: 20px;
+}
+.card-small-info:hover ,.card-small-info:hover .pp {
+    background-color: rgb(125, 241, 226);
+    color:white;
+    bottom: 20px;
+    transition: 0.3s;
+}
+/* cards */
+.card-main{
+ 
+    height: 100vh;
+    background-color: rgba(248, 245, 245, 0.925);
+}
+.card-main-2{
+ 
+    height: 190vh;
+    background-color: rgba(248, 245, 245, 0.925);
+}
+.card-move{
+    margin: 0 10%;
+   
+}
+.card-body{
+    height: 200px;
+}
+/* error */
+.icons i {
+    position: relative;
+  
+}
+
+.icons i::before{
+    content: "";
+    position: absolute;
+   width: 50px;
+   height: 50px;
+   background-color: aqua;
+   
+    
+}
+ /* photo with whrite */
+ .img-2{
+    position: relative;
+ }
+.img-2 img{
+    height: 340px;
+    width: 370px;
+    border-radius: 10px;
+}
+.img-2-big img{
+    height: 340px;
+    width: 500px;
+    border-radius: 10px;
+    margin: 15px 20px;
+    
+}
+.img-3-big img{
+    position: relative;
+    left: 160px;
+    height: 340px;
+    width: 500px;
+    border-radius: 10px;
+    margin: 15px 20px;
+    
+}
+
+
+
+.overlay{
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    color: white;
+    
+}
+.overlay-2{
+    position: absolute;
+    bottom: 0px;
+    left: 28px;
+    color: white;
+    
+}
+.overlay-3{
+    position: absolute;
+    bottom: 0px;
+    left: 185px;
+    color: white;
+    
+}
+a.icon-love  {
+   background-color: rgb(128, 131, 131);
+    position: absolute;
+    right: -92%;
+    bottom: 20px;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 40px;
+ }
+a.icon-love-2  {
+   background-color: rgb(128, 131, 131);
+    position: absolute;
+    right: -290px;
+    bottom: 30px;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 40px;
+ }
+a.icon-love-3  {
+   background-color: rgb(128, 131, 131);
+    position: absolute;
+    right: -290px;
+    bottom: 30px;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 40px;
+ }
+ 
+a.categ ,  p.categ{
+    background-color:rgb(125, 241, 226) ;
+    position: relative;
+    bottom: 10px;
+}
+/* trend */
+.body-car{
+    margin-top: 10px;
+    height: 100px;
+}
+/* parson */
+.person{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.head-person{
+    text-align: center;
+    margin: 20px 0px 10px;
+
+}
+/* error */
+.head-person h5::after{
+    content: "";
+    position: relative;
+    width: 200px;
+    height: 20px;
+    color:rgb(125, 241, 226) ;
+    
+}
+.person img{
+    width: 100px;
+    height: 100px;
+    border-radius: 70px;
+}
+/* blog */
+#blog{
+    margin-top: 150px;
+}
+
+.card-blog{
+    width: 33%;
+}
+
+/* email */
+.email{
+    background-color:  rgb(125, 241, 226);
+    margin: 20px 0px 0px;
+  
+    height: 170px;
+    align-content: center;
+ }
+/* footer */
+footer{
+    height: 80vh;
+    background-color: rgb(95, 95, 95);
+    color: white;
+    align-content: center;
+}
+footer p, footer a, footer li{
+    color: rgb(211, 207, 207);
+}
+/* pages */
+.pages a:not(:first-child){
+    background-color:  rgb(125, 241, 226);
+    padding: 12px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.pages a:first-child{
+    background-color:  rgb(91, 92, 92);
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+
+
+}
